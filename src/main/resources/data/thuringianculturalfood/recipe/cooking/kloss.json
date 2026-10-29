@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "thuringianculturalfood:raw_kloss"
+    },
+    {
+      "item": "thuringianculturalfood:raw_kloss"
+    },
+    {
+      "item": "thuringianculturalfood:raw_kloss"
+    },
+    {
+      "item": "thuringianculturalfood:raw_kloss"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "thuringianculturalfood:kloss"
+  }
+}

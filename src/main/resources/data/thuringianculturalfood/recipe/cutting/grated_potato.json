@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "thuringianculturalfood:washed_potato"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 8,
+        "id": "thuringianculturalfood:grated_potato"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}
