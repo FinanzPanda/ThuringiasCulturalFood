@@ -11,7 +11,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "B  ",
-    "OSM",
+    "OM ",
     " B "
   ],
   "key": {
@@ -23,9 +23,6 @@
     },
     "O": {
       "tag": "c:foods/onion"
-    },
-    "S": {
-      "tag": "farmersdelight:raw_bacon"
     }
   },
   "result": {

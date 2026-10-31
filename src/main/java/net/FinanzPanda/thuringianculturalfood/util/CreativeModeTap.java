@@ -18,7 +18,7 @@ public class CreativeModeTap {
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
             CREATIVE_MODE_TABS.register("thuringian_cultural_food", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.thuringianculturalfood.thuringian_cultural_food_tab"))
-                    .icon(() -> new ItemStack(ModItems.RAW_KLOSS.get()))
+                    .icon(() -> new ItemStack(ModItems.ROSTBRATWURST.get()))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAW_KLOSS);
                         pOutput.accept(ModItems.KLOSS);
