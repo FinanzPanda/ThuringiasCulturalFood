@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:apple"
+    },
+    {
+      "tag": "c:foods/red_cabbage"
+    },
+    {
+      "tag": "c:foods/red_cabbage"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "thuringianculturalfood:apple_red_cabbage"
+  }
+}

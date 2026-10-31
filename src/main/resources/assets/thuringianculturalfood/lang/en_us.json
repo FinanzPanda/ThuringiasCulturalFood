@@ -8,12 +8,20 @@
   "item.thuringianculturalfood.red_cabbage_seeds": "Red Cabbage Seeds",
   "item.thuringianculturalfood.red_cabbage_leaf": "Red Cabbage Leaf",
 
+  "item.thuringianculturalfood.roulade_kloss_red_cabbage": "Roulade With Apple Red Cabbage and Klößen",
+  "item.thuringianculturalfood.apple_red_cabbage": "Apple Red Cabbage",
+  "item.thuringianculturalfood.rostbratwurst": "Thuringia's Rostbratwurst",
 
+  "item.thuringianculturalfood.raw_roulade": "Raw Roulade",
+  "item.thuringianculturalfood.raw_sausage": "Raw Sausage",
+  "item.thuringianculturalfood.roulade": "Roulade",
+  "item.thuringianculturalfood.grilled_sausage": "Grilled Sausage",
 
+  "item.thuringianculturalfood.mustard_seeds": "Mustard Seeds",
+  "item.thuringianculturalfood.mustard": "Mustard",
 
-
-
-
+  "item.thuringianculturalfood.bun": "Bun",
+  "item.thuringianculturalfood.bun_dough": "Bun Dough",
 
   "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thuringia's Cultural Food"
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "thuringianculturalfood:raw_roulade"
+  },
+  "result": {
+    "id": "thuringianculturalfood:roulade"
+  }
+}

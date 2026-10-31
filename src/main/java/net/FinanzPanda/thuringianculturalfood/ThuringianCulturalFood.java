@@ -24,6 +24,7 @@ public class ThuringianCulturalFood {
     public ThuringianCulturalFood(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(TCFDataGenerators::gatherData);
+
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.register(modEventBus);
         CreativeModeTap.register(modEventBus);

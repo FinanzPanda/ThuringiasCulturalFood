@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#S",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:water_bucket"
+    },
+    "X": {
+      "item": "thuringianculturalfood:mustard_seeds"
+    },
+    "S": {
+      "tag": "c:salt"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "thuringianculturalfood:mustard"
+  }
+}

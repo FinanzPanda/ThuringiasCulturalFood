@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "thuringianculturalfood:red_cabbage"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "thuringianculturalfood:red_cabbage_leaf"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

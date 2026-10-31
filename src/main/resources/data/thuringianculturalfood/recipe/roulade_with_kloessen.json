@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "KKC",
+    " B "
+  ],
+  "key": {
+    "K": {
+      "item": "thuringianculturalfood:kloss"
+    },
+    "C": {
+      "item": "thuringianculturalfood:apple_red_cabbage"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "R": {
+      "item": "thuringianculturalfood:roulade"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "thuringianculturalfood:roulade_kloss_red_cabbage"
+  }
+}

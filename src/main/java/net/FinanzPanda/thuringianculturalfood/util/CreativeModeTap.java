@@ -26,6 +26,7 @@ public class CreativeModeTap {
                         pOutput.accept(ModItems.GRATED_POTATO);
                         if (ModItems.SALT != null) {
                             pOutput.accept(ModItems.SALT);
+                            pOutput.accept(ModItems.BUN_DOUGH);
                         }
                         pOutput.accept(ModItems.GRATED_POTATO);
 

@@ -19,6 +19,9 @@ public class ModBlocks {
     public static final Supplier<Block> RED_CABBAGE_CROP = BLOCKS.register("red_cabbages",
             () -> new RedCabbageCropBlock(Block.Properties.ofFullCopy(Blocks.WHEAT)));
 
+    public static final Supplier<Block> MUSTARD_CROP = BLOCKS.register("mustards",
+            () -> new MustardCropBlock(Block.Properties.ofFullCopy(Blocks.WHEAT)));
+
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }

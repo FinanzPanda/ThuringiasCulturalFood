@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:wheat_dough"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "thuringianculturalfood:bun_dough"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:axes"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "culturaldelights"
+    }
+  ],
+  "replace": false,
+  "values": [
+    "culturaldelights:pickle",
+    "culturaldelights:cut_pickle"
+  ]
+}

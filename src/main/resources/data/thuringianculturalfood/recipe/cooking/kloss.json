@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "experience": 2.0,
+  "cookingtime": 600,
   "ingredients": [
     {
       "item": "thuringianculturalfood:raw_kloss"

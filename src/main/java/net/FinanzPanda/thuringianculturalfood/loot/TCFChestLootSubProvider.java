@@ -29,9 +29,11 @@ public class TCFChestLootSubProvider implements LootTableSubProvider {
     ) {
         consumer.accept(ModChestLootTables.ABANDONED_MINESHAFT, LootTable.lootTable()
                 .withPool(LootPool.lootPool()
-                        .setRolls(UniformGenerator.between(1.0F, 4.0F))
+                        .setRolls(UniformGenerator.between(1.0F, 3.0F))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 4.0F))))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(EmptyLootItem.emptyItem().setWeight(2))
                 )
         );
@@ -43,6 +45,8 @@ public class TCFChestLootSubProvider implements LootTableSubProvider {
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(4.0F, 12.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE.get()).setWeight(2)
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 2.0F))))
                         .add(EmptyLootItem.emptyItem().setWeight(2))
                 ));
 
@@ -51,6 +55,8 @@ public class TCFChestLootSubProvider implements LootTableSubProvider {
                         .setRolls(ConstantValue.exactly(1.0F))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(EnchantRandomlyFunction.randomApplicableEnchantment(registries)))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(EmptyLootItem.emptyItem().setWeight(3))
                 ));
 
@@ -63,6 +69,8 @@ public class TCFChestLootSubProvider implements LootTableSubProvider {
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 4.0F))))
                         .add(LootItem.lootTableItem(ModItems.KLOSS.get()).setWeight(6)
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 4.0F))))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(3.0F, 5.0F))))
                 ));
 
         consumer.accept(ModChestLootTables.SIMPLE_DUNGEON, LootTable.lootTable()
@@ -70,23 +78,32 @@ public class TCFChestLootSubProvider implements LootTableSubProvider {
                         .setRolls(UniformGenerator.between(1.0F, 4.0F))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 4.0F))))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 2.0F))))
                 ));
 
         consumer.accept(ModChestLootTables.VILLAGE_DESERT_HOUSE, LootTable.lootTable()
                 .withPool(LootPool.lootPool()
                         .setRolls(UniformGenerator.between(1.0F, 3.0F))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))));
+
 
         consumer.accept(ModChestLootTables.VILLAGE_PLAINS_HOUSE, LootTable.lootTable()
                 .withPool(LootPool.lootPool()
                         .setRolls(UniformGenerator.between(1.0F, 3.0F))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))));
 
         consumer.accept(ModChestLootTables.VILLAGE_SAVANNA_HOUSE, LootTable.lootTable()
                 .withPool(LootPool.lootPool()
                         .setRolls(UniformGenerator.between(1.0F, 3.0F))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE.get())
@@ -95,12 +112,16 @@ public class TCFChestLootSubProvider implements LootTableSubProvider {
         consumer.accept(ModChestLootTables.VILLAGE_SNOWY_HOUSE, LootTable.lootTable()
                 .withPool(LootPool.lootPool()
                         .setRolls(UniformGenerator.between(1.0F, 3.0F))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))));
 
         consumer.accept(ModChestLootTables.VILLAGE_TAIGA_HOUSE, LootTable.lootTable()
                 .withPool(LootPool.lootPool()
                         .setRolls(UniformGenerator.between(1.0F, 3.0F))
+                        .add(LootItem.lootTableItem(ModItems.MUSTARD_SEEDS.get())
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE_SEEDS.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F))))
                         .add(LootItem.lootTableItem(ModItems.RED_CABBAGE.get())

@@ -37,6 +37,7 @@ public class TCFBlockLoot extends BlockLootSubProvider {
     protected void generate() {
         HolderLookup.RegistryLookup<Enchantment> registryLookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
 
+        add(ModBlocks.MUSTARD_CROP.get(), createSeedlessCropDrops(ModBlocks.MUSTARD_CROP.get(),  ModItems.MUSTARD_SEEDS.get(), registryLookup));
         add(ModBlocks.RED_CABBAGE_CROP.get(), createCropDrops(ModBlocks.RED_CABBAGE_CROP.get(), ModItems.RED_CABBAGE.get(), ModItems.RED_CABBAGE_SEEDS.get(), registryLookup));
     }
 
@@ -68,6 +69,19 @@ public class TCFBlockLoot extends BlockLootSubProvider {
                         .when(maxAgeCondition)
                         .add(LootItem.lootTableItem(seeds)
                                 .apply(ApplyBonusCount.addBonusBinomialDistributionCount(registryLookup.getOrThrow(Enchantments.FORTUNE), 0.5714286F, 3)))));
+    }
+
+    protected LootTable.Builder createSeedlessCropDrops(Block block, Item cropItem, HolderLookup.RegistryLookup<Enchantment> registryLookup) {
+        LootItemCondition.Builder maxAgeCondition = LootItemBlockStatePropertyCondition.hasBlockStateProperties(block).setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CropBlock.AGE, CropBlock.MAX_AGE));
+        return this.applyExplosionDecay(block, LootTable.lootTable()
+                .withPool(LootPool.lootPool()
+                        .add(LootItem.lootTableItem(cropItem)))
+                .withPool(LootPool.lootPool()
+                        .when(maxAgeCondition)
+                        .add(LootItem.lootTableItem(cropItem)
+                                .apply(ApplyBonusCount.addBonusBinomialDistributionCount(registryLookup.getOrThrow(Enchantments.FORTUNE), 0.5714286F, 3)))));
+
+
     }
 
 }
