@@ -7,7 +7,11 @@ An addon for
   Farmer's Delight
 </a>
   
-Bringing to you Thuringia's finest cuisine - straight from the green heart of Germany!  
+Bringing to you
+<a href="https://en.wikipedia.org/wiki/Thuringia"> 
+Thuringia
+</a>
+'s finest cuisine - straight from the green heart of Germany!  
 Where is that?
 Right here:  
 <img src= "https://th.bing.com/th/id/OIP.0uNXzbS_ZT16vnqRpl5FKAHaKB?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" width="20%"/>  
