@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "KKC",
+    " B "
+  ],
+  "key": {
+    "K": {
+      "item": "thuringianculturalfood:kloss"
+    },
+    "C": {
+      "item": "thuringianculturalfood:apple_red_cabbage"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "P": {
+      "item": "minecraft:cooked_porkchop"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "thuringianculturalfood:mutzbraten"
+  }
+}

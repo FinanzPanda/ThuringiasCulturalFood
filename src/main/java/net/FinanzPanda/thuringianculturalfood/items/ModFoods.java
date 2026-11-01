@@ -28,6 +28,12 @@ public class ModFoods {
             .effect(() -> nourishment(SEHR_LANG_KURZ), 1.0F)
             .build();
 
+    public static final FoodProperties MUTZBRATEN = new FoodProperties.Builder()
+            .nutrition(10)
+            .saturationModifier(0.5F)
+            .effect(() -> nourishment(LANG_KURZ), 1.0F)
+            .build();
+
     public static final FoodProperties ROULADE= new FoodProperties.Builder()
             .nutrition(6)
             .saturationModifier(0.5F)
@@ -45,8 +51,31 @@ public class ModFoods {
             .build();
 
     public static final FoodProperties ROSTBRATWURST= new FoodProperties.Builder()
+            .nutrition(7)
+            .saturationModifier(0.3F)
+            .effect(() -> nourishment(LANG_KURZ), 1.0F)
+            .build();
+
+    public static final FoodProperties GRILLED_ROSTBRAETEL= new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.2F)
+            .effect(() -> nourishment(SEHR_KURZ), 0.5F)
+            .build();
+
+    public static final FoodProperties TH_ROSTBRAETEL= new FoodProperties.Builder()
             .nutrition(8)
             .saturationModifier(0.4F)
             .effect(() -> nourishment(LANG_KURZ), 1.0F)
+            .build();
+
+    public static final FoodProperties POTATO_SOUP = new FoodProperties.Builder()
+            .nutrition(5)
+            .saturationModifier(0.3F)
+            .effect(() -> nourishment(LANG_KURZ), 0.66F)
+            .build();
+
+    public static final FoodProperties PROPHET_CAKE_SLICE = new FoodProperties.Builder()
+            .nutrition(5)
+            .saturationModifier(0.4F)
             .build();
 }

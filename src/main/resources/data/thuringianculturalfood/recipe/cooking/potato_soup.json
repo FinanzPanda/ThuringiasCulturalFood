@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "cookingtime": 300,
+  "ingredients": [
+    {
+      "tag": "c:stew_potato_ingredients"
+    },
+    {
+      "tag": "c:stew_potato_ingredients"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "result": {
+    "id": "thuringianculturalfood:potato_soup"
+  }
+}

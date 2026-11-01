@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 400,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "thuringianculturalfood:raw_prophet_cake"
+  },
+  "result": {
+    "id": "thuringianculturalfood:prophet_cake"
+  }
+}

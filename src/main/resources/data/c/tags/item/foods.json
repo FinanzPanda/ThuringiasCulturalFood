@@ -1,8 +1,17 @@
 {
+  "replace": false,
   "values": [
     "thuringianculturalfood:red_cabbage_leaf",
     "thuringianculturalfood:red_cabbage",
     "thuringianculturalfood:kloss",
-    "thuringianculturalfood:apple_red_cabbage"
+    "thuringianculturalfood:apple_red_cabbage",
+    "thuringianculturalfood:grilled_sausage",
+    "thuringianculturalfood:grilled_rostbraetel",
+    "thuringianculturalfood:th_rostbraetel",
+    "thuringianculturalfood:roulade",
+    "thuringianculturalfood:roulade_kloss_red_cabbage",
+    "thuringianculturalfood:potato_soup",
+    "thuringianculturalfood:prophet_cake_slice",
+    "thuringianculturalfood:mutzbraten"
   ]
 }

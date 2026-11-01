@@ -16,6 +16,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
+@SuppressWarnings("unused")
 @Mod(ThuringianCulturalFood.MODID)
 public class ThuringianCulturalFood {
     public static final String MODID = "thuringianculturalfood";

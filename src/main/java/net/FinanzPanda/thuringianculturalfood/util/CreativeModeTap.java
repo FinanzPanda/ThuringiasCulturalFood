@@ -20,19 +20,21 @@ public class CreativeModeTap {
                     .title(Component.translatable("itemGroup.thuringianculturalfood.thuringian_cultural_food_tab"))
                     .icon(() -> new ItemStack(ModItems.ROSTBRATWURST.get()))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.RAW_KLOSS);
-                        pOutput.accept(ModItems.KLOSS);
-                        pOutput.accept(ModItems.WASHED_POTATO);
-                        pOutput.accept(ModItems.GRATED_POTATO);
-                        if (ModItems.SALT != null) {
-                            pOutput.accept(ModItems.SALT);
-                            pOutput.accept(ModItems.BUN_DOUGH);
-                        }
-                        pOutput.accept(ModItems.GRATED_POTATO);
+
 
                         ModItems.CREATIVE_TAB_ITEMS.forEach((item, families) -> {
                             pOutput.accept(item.get());
                         });
+
+                        if (ModItems.SALT != null) {
+                            pOutput.accept(ModItems.SALT);
+                        }
+                        if (ModItems.BUTTER != null) {
+                            pOutput.accept(ModItems.BUTTER);
+                        }
+                        if (ModItems.BUN_DOUGH != null) {
+                            pOutput.accept(ModItems.BUN_DOUGH);
+                        }
 
                     }).build());
 

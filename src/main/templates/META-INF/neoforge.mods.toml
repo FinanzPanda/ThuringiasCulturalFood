@@ -11,9 +11,9 @@ modId="${mod_id}" #mandatory
 
 # The version number of the mod
 version="${mod_version}" #mandatory
-displayName="Thuringia's Cultural Food"
+displayName="Thuringia's Cultural Delight"
 description='''
-A mod for Thuringia's Cultural Food. LOL
+A mod for Thuringia's Cultural Food. BTW: Thuringia is a German State!
 '''
 
 [[dependencies.${mod_id}]] #optional
@@ -29,3 +29,10 @@ A mod for Thuringia's Cultural Food. LOL
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="farmersdelight"
+type="required"
+versionRange="1.0.0"
+ordering="NONE"
+side="BOTH"

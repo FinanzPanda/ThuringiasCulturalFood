@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " S ",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "thuringianculturalfood:bun"
+    },
+    "M": {
+      "item": "thuringianculturalfood:mustard"
+    },
+    "S": {
+      "item": "thuringianculturalfood:grilled_rostbraetel"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "thuringianculturalfood:th_rostbraetel"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "thuringianculturalfood:raw_prophet_cake"
+  },
+  "result": {
+    "id": "thuringianculturalfood:prophet_cake"
+  }
+}

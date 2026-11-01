@@ -3,6 +3,7 @@
   "item.thuringianculturalfood.kloss": "Kloß",
   "item.thuringianculturalfood.washed_potato": "Washed Potato",
   "item.thuringianculturalfood.salt": "Salt",
+  "item.thuringianculturalfood.butter": "Butter",
   "item.thuringianculturalfood.grated_potato": "Grated Potato",
   "item.thuringianculturalfood.red_cabbage": "Red Cabbage",
   "item.thuringianculturalfood.red_cabbage_seeds": "Red Cabbage Seeds",
@@ -10,18 +11,27 @@
 
   "item.thuringianculturalfood.roulade_kloss_red_cabbage": "Roulade With Apple Red Cabbage and Klößen",
   "item.thuringianculturalfood.apple_red_cabbage": "Apple Red Cabbage",
+  "item.thuringianculturalfood.mutzbraten": "Mutzbraten with Apple Red Cabbage and Klößen",
   "item.thuringianculturalfood.rostbratwurst": "Thuringia's Rostbratwurst",
+  "item.thuringianculturalfood.th_rostbraetel": "Thuringia's Rostbrätel",
 
   "item.thuringianculturalfood.raw_roulade": "Raw Roulade",
   "item.thuringianculturalfood.raw_sausage": "Raw Sausage",
+  "item.thuringianculturalfood.raw_rostbraetel": "Raw Rostbrätel",
   "item.thuringianculturalfood.roulade": "Roulade",
   "item.thuringianculturalfood.grilled_sausage": "Grilled Sausage",
+  "item.thuringianculturalfood.grilled_rostbraetel": "Rostbrätel",
+  "item.thuringianculturalfood.potato_soup": "Potato Soup",
 
   "item.thuringianculturalfood.mustard_seeds": "Mustard Seeds",
   "item.thuringianculturalfood.mustard": "Mustard",
 
+  "item.thuringianculturalfood.prophet_cake_slice": "Prophet Cake Slice",
+  "item.thuringianculturalfood.raw_prophet_cake": "Raw Prophet Cake",
+  "item.thuringianculturalfood.prophet_cake": "Prophet Cake",
+
   "item.thuringianculturalfood.bun": "Bun",
   "item.thuringianculturalfood.bun_dough": "Bun Dough",
 
-  "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thuringia's Cultural Food"
+  "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thuringia's Cultural Delight"
 }

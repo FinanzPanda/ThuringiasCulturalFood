@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "thuringianculturalfood:prophet_cake"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 6,
+        "id": "thuringianculturalfood:prophet_cake_slice"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

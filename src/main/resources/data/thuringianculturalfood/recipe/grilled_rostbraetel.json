@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 400,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "thuringianculturalfood:raw_rostbraetel"
+  },
+  "result": {
+    "id": "thuringianculturalfood:grilled_rostbraetel"
+  }
+}

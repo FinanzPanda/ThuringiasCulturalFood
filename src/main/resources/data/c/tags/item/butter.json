@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+    "id": "createfood:butter",
+    "required": false
+    },
+    {
+      "id": "culturaldelights:butter",
+      "required": false
+    },
+    {
+      "id": "thuringianculturalfood:butter",
+      "required": false
+    }
+  ]
+}
