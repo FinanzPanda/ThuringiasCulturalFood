@@ -12,6 +12,10 @@ modId="${mod_id}" #mandatory
 # The version number of the mod
 version="${mod_version}" #mandatory
 displayName="Thuringia's Cultural Delight"
+displayURL = "https://github.com/FinanzPanda/ThuringiasCulturalFood"
+logoFile = "logo.png"
+logoBlur = false
+authors="FinanzPanda"
 description='''
 A mod for Thuringia's Cultural Food. BTW: Thuringia is a German State!
 '''
