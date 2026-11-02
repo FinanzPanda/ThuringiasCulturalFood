@@ -15,6 +15,7 @@ displayName="Thuringia's Cultural Delight"
 displayURL = "https://github.com/FinanzPanda/ThuringiasCulturalFood"
 logoFile = "logo.png"
 logoBlur = false
+credits="GregorQuendel"
 authors="FinanzPanda"
 description='''
 A mod for Thuringia's Cultural Food. BTW: Thuringia is a German State!

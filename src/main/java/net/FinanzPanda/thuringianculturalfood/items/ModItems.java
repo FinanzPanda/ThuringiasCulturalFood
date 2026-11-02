@@ -1,6 +1,8 @@
 package net.FinanzPanda.thuringianculturalfood.items;
 
 import net.FinanzPanda.thuringianculturalfood.ThuringianCulturalFood;
+import net.FinanzPanda.thuringianculturalfood.sounds.ModSounds;
+import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
@@ -109,6 +111,10 @@ public class ModItems {
     public static final Supplier<Item> PROPHET_CAKE_SLICE = registerWithTab("prophet_cake_slice",
             () -> new Item(foodItem(ModFoods.PROPHET_CAKE_SLICE)));
 
+
+    // Disc
+    public static final Supplier<Item> BACH_MUSIC_DISC = registerWithTab("bach_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BACH_KEY).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

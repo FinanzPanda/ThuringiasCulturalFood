@@ -3,6 +3,7 @@ package net.FinanzPanda.thuringianculturalfood;
 import net.FinanzPanda.thuringianculturalfood.block.ModBlocks;
 import net.FinanzPanda.thuringianculturalfood.data.TCFDataGenerators;
 import net.FinanzPanda.thuringianculturalfood.items.ModItems;
+import net.FinanzPanda.thuringianculturalfood.sounds.ModSounds;
 import net.FinanzPanda.thuringianculturalfood.util.CreativeModeTap;
 import org.slf4j.Logger;
 
@@ -26,6 +27,7 @@ public class ThuringianCulturalFood {
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(TCFDataGenerators::gatherData);
 
+        ModSounds.SOUND_EVENTS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.register(modEventBus);
         CreativeModeTap.register(modEventBus);

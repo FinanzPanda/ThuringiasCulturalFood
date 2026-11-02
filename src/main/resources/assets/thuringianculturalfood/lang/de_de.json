@@ -1,0 +1,40 @@
+{
+  "item.thuringianculturalfood.raw_kloss": "Roher Kloß",
+  "item.thuringianculturalfood.kloss": "Kloß",
+  "item.thuringianculturalfood.washed_potato": "Gewaschene Kartoffel",
+  "item.thuringianculturalfood.salt": "Salz",
+  "item.thuringianculturalfood.butter": "Butter",
+  "item.thuringianculturalfood.grated_potato": "Geriebene Kartoffel",
+  "item.thuringianculturalfood.red_cabbage": "Rotkraut",
+  "item.thuringianculturalfood.red_cabbage_seeds": "Rotkraut Samen",
+  "item.thuringianculturalfood.red_cabbage_leaf": "Rotkraut Blatt",
+
+  "item.thuringianculturalfood.roulade_kloss_red_cabbage": "Roulade mit Apfelrotkraut und Klößen",
+  "item.thuringianculturalfood.apple_red_cabbage": "Apfelrotkraut",
+  "item.thuringianculturalfood.mutzbraten": "Mutzbraten mit Apfelrotkraut und Klößen",
+  "item.thuringianculturalfood.rostbratwurst": "Thüringer Rostbratwurst",
+  "item.thuringianculturalfood.th_rostbraetel": "Thüringer Rostbrätel",
+
+  "item.thuringianculturalfood.raw_roulade": "Rohe Roulade",
+  "item.thuringianculturalfood.raw_sausage": "Rohe Bratwurst",
+  "item.thuringianculturalfood.raw_rostbraetel": "Rohes Rostbrätel",
+  "item.thuringianculturalfood.roulade": "Roulade",
+  "item.thuringianculturalfood.grilled_sausage": "Bratwurst",
+  "item.thuringianculturalfood.grilled_rostbraetel": "Rostbrätel",
+  "item.thuringianculturalfood.potato_soup": "Kartoffelsuppe",
+
+  "item.thuringianculturalfood.mustard_seeds": "Senfkörner",
+  "item.thuringianculturalfood.mustard": "Senf",
+
+  "item.thuringianculturalfood.prophet_cake_slice": "Prophetenkuchen Stück",
+  "item.thuringianculturalfood.raw_prophet_cake": "Roher Prophetenkuchen",
+  "item.thuringianculturalfood.prophet_cake": "Prophetenkuchen",
+
+  "item.thuringianculturalfood.bun": "Brötchen",
+  "item.thuringianculturalfood.bun_dough": "Brötchen Teig",
+
+  "item.thuringianculturalfood.bach_disc.desc": "Bester Bach von GregorQuendel",
+  "item.thuringianculturalfood.bach_music_disc": "Bach Toccata und Fugue in D Minor",
+
+  "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thüringer Cultural Delight"
+}
