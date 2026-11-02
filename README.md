@@ -28,4 +28,13 @@ Right here:
 <a href="https://github.com/vectorwing"> 
 vectorwing
 </a>
- (used Cabbage texture and recoloured it)
+(used Cabbage texture and recoloured it),
+   
+<a href="https://pixabay.com/de/users/gregorquendel-19912121/">
+  GregorQuendel
+</a>
+ (Made the
+ <a href="https://pixabay.com/de/music/solo-klassische-instrumente-bach-toccata-and-fugue-in-d-minor-bwv-565-250589/">
+  music
+   </a>
+  for the Bach Disc)
