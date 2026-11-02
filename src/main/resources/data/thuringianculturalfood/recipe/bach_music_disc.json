@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thuringianculturalfood:rostbratwurst"
+    },
+    {
+      "tag": "minecraft:creeper_drop_music_discs"
+    }
+  ],
+  "result": {
+    "id": "thuringianculturalfood:bach_music_disc"
+  }
+}
