@@ -1,7 +1,14 @@
+<a href="https://www.curseforge.com/minecraft/mc-mods/thuringias-cultural-delight">
+  <img src="http://cf.way2muchnoise.eu/full_thuringias-cultural-delight_downloads.svg" alt="Curseforge Downloads"/>
+</a>
+
 <img src="https://cdn.modrinth.com/data/orYoIQEA/images/3f0d4beec083b6f81944e25266ffa31b8ed41593.png" />
 
 Thuringia's Cultural Delight
 ====
+
+
+
 An addon for 
 <a href="https://github.com/vectorwing/FarmersDelight">
   Farmer's Delight
