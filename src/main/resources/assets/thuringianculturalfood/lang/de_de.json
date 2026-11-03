@@ -36,5 +36,12 @@
   "item.thuringianculturalfood.bach_disc.desc": "Bester Bach von GregorQuendel",
   "item.thuringianculturalfood.bach_music_disc": "Bach Toccata und Fugue in D Minor",
 
+  "item.thuringianculturalfood.rasinbun": "Rosinenbrötchen",
+  "item.thuringianculturalfood.rasinbuns": "Rosinenbrote",
+  "item.thuringianculturalfood.rasinbun_dough": "Brötchenteig mit Rosinen",
+  "item.thuringianculturalfood.rasinbuns_without_rasins": "Rasinbuns without Rasins",
+
+  "item.thuringianculturalfood.stein": "Der STEIN",
+
   "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thüringer Cultural Delight"
 }

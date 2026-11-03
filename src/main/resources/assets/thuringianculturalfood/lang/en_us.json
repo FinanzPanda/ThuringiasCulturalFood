@@ -36,5 +36,12 @@
   "item.thuringianculturalfood.bach_disc.desc": "finest Bach by GregorQuendel",
   "item.thuringianculturalfood.bach_music_disc": "Bach Toccata and Fugue in D Minor",
 
+  "item.thuringianculturalfood.rasinbun": "Rasinbun",
+  "item.thuringianculturalfood.rasinbuns": "Rasinbuns",
+  "item.thuringianculturalfood.rasinbun_dough": "Rasinbun Dough",
+  "item.thuringianculturalfood.rasinbuns_without_rasins": "Rasinbuns without Rasins",
+
+  "item.thuringianculturalfood.stein": "The STEIN",
+
   "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thuringia's Cultural Delight"
 }

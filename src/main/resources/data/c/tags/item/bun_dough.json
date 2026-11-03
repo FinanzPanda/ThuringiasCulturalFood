@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:wheat_dough_small",
+      "required": false
+    },
+    {
+      "id": "thuringianculturalfood:bun_dough",
+      "required": false
+    }
+  ]
+}

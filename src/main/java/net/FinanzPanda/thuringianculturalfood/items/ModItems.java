@@ -30,12 +30,18 @@ public class ModItems {
     public static final Supplier<Item> RAW_KLOSS = registerWithTab("raw_kloss",
             () -> new Item(basicItem()));
 
-
+    // Easter Eggs
+    public static final DeferredItem<Item> STEIN=ITEMS.registerSimpleItem("stein");
 
     //Helper Items
     public static final DeferredItem<Item> SALT;
     public static final DeferredItem<Item> BUN_DOUGH;
     public static final DeferredItem<Item> BUTTER;
+
+    public static final DeferredItem<Item> RASINBUN_DOUGH;
+    public static final DeferredItem<Item> RASINBUN;
+    public static final DeferredItem<Item> RASINBUNS;
+    public static final DeferredItem<Item> RASINBUNS_WITHOUT_RASINS;
 
     static{
         if(!ModList.get().isLoaded("createfood") && !ModList.get().isLoaded("culturaldelights") ){
@@ -52,6 +58,21 @@ public class ModItems {
             SALT= null;
             BUN_DOUGH= null;
             BUTTER= null;
+        }
+
+        if(ModList.get().isLoaded("vinery")){
+            RASINBUN_DOUGH = registerWithTab("rasinbun_dough",
+                    () -> new Item(basicItem()));
+            RASINBUN = registerWithTab("rasinbun",
+                    () -> new Item(foodItem(ModFoods.RASINBUN)));
+            RASINBUNS = ITEMS.register("rasinbuns", () -> new Item(foodItem(ModFoods.RASINBUNS)));
+            RASINBUNS_WITHOUT_RASINS = ITEMS.register("rasinbuns_without_rasins", () -> new Item(foodItem(ModFoods.RASINBUNS_WITHOUT_RASINS).stacksTo(1)));
+        }
+        else{
+            RASINBUN_DOUGH = null;
+            RASINBUN = null;
+            RASINBUNS = null;
+            RASINBUNS_WITHOUT_RASINS = null;
         }
     }
 
@@ -110,6 +131,7 @@ public class ModItems {
             () -> new Item(basicItem()));
     public static final Supplier<Item> PROPHET_CAKE_SLICE = registerWithTab("prophet_cake_slice",
             () -> new Item(foodItem(ModFoods.PROPHET_CAKE_SLICE)));
+    // TODO -> kalter Hund
 
 
     // Disc

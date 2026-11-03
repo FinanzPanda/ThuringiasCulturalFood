@@ -78,4 +78,20 @@ public class ModFoods {
             .nutrition(5)
             .saturationModifier(0.4F)
             .build();
+
+    public static final FoodProperties RASINBUN = new FoodProperties.Builder()
+            .nutrition(5)
+            .saturationModifier(0.2F)
+            .build();
+
+    public static final FoodProperties RASINBUNS = new FoodProperties.Builder()
+            .nutrition(13)
+            .saturationModifier(0.5F)
+            .build();
+
+    public static final FoodProperties RASINBUNS_WITHOUT_RASINS = new FoodProperties.Builder()
+            .nutrition(13)
+            .saturationModifier(0.5F)
+            .effect(() -> nourishment(SEHR_LANG_KURZ), 1.0F)
+            .build();
 }

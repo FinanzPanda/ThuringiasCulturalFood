@@ -2,18 +2,17 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "createfood"
-
+      "modid": "vinery"
     }
   ],
   "type": "minecraft:smelting",
   "category": "food",
-  "cookingtime": 200,
+  "cookingtime": 400,
   "experience": 0.1,
   "ingredient": {
-    "item": "createfood:wheat_dough_small"
+    "item": "thuringianculturalfood:rasinbun_dough"
   },
   "result": {
-    "id": "thuringianculturalfood:bun"
+    "id": "thuringianculturalfood:rasinbun"
   }
 }

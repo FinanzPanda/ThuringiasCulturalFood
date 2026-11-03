@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "vinery"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thuringianculturalfood:rasinbuns"
+    },
+    {
+      "item": "minecraft:shears"
+    }
+  ],
+  "result": {
+    "id": "thuringianculturalfood:rasinbuns_without_rasins"
+  }
+}
