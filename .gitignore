@@ -39,5 +39,5 @@ run/
 repo/
 !**/src/**/repo/
 **/src/main/resources/assets/thuringianculturalfood/gregorquendel-bach-toccata-and-fugue-in-d-minor-bwv-565-250589.ogg
-**/src/main/resources/assets/thuringianculturalfood/RasinbunsWithoutRasinsPodcast.ogg
+**/src/main/resources/assets/thuringianculturalfood/rasinbunswithoutrasinspodcast.ogg
 *.ogg

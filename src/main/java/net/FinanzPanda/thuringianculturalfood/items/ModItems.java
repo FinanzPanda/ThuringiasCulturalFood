@@ -66,7 +66,7 @@ public class ModItems {
             RASINBUN = registerWithTab("rasinbun",
                     () -> new Item(foodItem(ModFoods.RASINBUN)));
             RASINBUNS = ITEMS.register("rasinbuns", () -> new Item(foodItem(ModFoods.RASINBUNS)));
-            RASINBUNS_WITHOUT_RASINS = ITEMS.register("rasinbuns_without_rasins", () -> new Item(foodItem(ModFoods.RASINBUNS_WITHOUT_RASINS).stacksTo(1)));
+            RASINBUNS_WITHOUT_RASINS = ITEMS.register("rasinbuns_without_rasins", () -> new Item(foodItem(ModFoods.RASINBUNS_WITHOUT_RASINS).stacksTo(1).jukeboxPlayable(ModSounds.RASINBUNS_WITHOUT_RASINS_PODCAST_KEY)));
         }
         else{
             RASINBUN_DOUGH = null;

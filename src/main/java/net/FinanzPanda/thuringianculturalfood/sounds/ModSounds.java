@@ -28,6 +28,8 @@ public class ModSounds {
     public static final Supplier<SoundEvent> BACH = registerSoundEvent("gregorquendel-bach-toccata-and-fugue-in-d-minor-bwv-565-250589");
     public static final ResourceKey<JukeboxSong> BACH_KEY = createSong("gregorquendel-bach-toccata-and-fugue-in-d-minor-bwv-565-250589");
 
+    public static final Supplier<SoundEvent> RASINBUNS_WITHOUT_RASINS_PODCAST = registerSoundEvent("rasinbunswithoutrasinspodcast");
+    public static final ResourceKey<JukeboxSong> RASINBUNS_WITHOUT_RASINS_PODCAST_KEY = createSong("rasinbunswithoutrasinspodcast");
 
     public static void register(IEventBus eventBus) {
         SOUND_EVENTS.register(eventBus);
