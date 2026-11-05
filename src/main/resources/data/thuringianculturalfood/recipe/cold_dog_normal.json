@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "create"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "CIC",
+    "IMI"
+  ],
+  "key": {
+    "I": {
+      "item": "thuringianculturalfood:biscuit"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "S": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "id": "thuringianculturalfood:cold_dog"
+  }
+}

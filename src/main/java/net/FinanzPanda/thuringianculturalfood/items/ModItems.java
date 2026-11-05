@@ -2,7 +2,6 @@ package net.FinanzPanda.thuringianculturalfood.items;
 
 import net.FinanzPanda.thuringianculturalfood.ThuringianCulturalFood;
 import net.FinanzPanda.thuringianculturalfood.sounds.ModSounds;
-import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
@@ -21,6 +20,19 @@ import java.util.function.Supplier;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ThuringianCulturalFood.MODID);
     public static LinkedHashMap<Supplier<Item>, ItemFamily[]> CREATIVE_TAB_ITEMS = new LinkedHashMap<>();
+
+
+    // Crops
+        // Red Cabbage
+        public static final Supplier<Item> RED_CABBAGE = registerWithTab("red_cabbage",
+                () -> new Item(foodItem(FoodValues.CABBAGE)));
+        public static final Supplier<Item> RED_CABBAGE_LEAF = registerWithTab("red_cabbage_leaf",
+                () -> new Item(foodItem(FoodValues.CABBAGE_LEAF)));
+        public static final Supplier<Item> RED_CABBAGE_SEEDS = registerWithTab("red_cabbage_seeds", () -> new ItemNameBlockItem(ModBlocks.RED_CABBAGE_CROP.get(), basicItem()));
+        // Mustard
+        public static final Supplier<Item> MUSTARD_SEEDS = registerWithTab("mustard_seeds", () -> new ItemNameBlockItem(ModBlocks.MUSTARD_CROP.get(), basicItem()));
+        public static final Supplier<Item> MUSTARD = registerWithTab("mustard", () -> new Item(basicItem()));
+
 
     // Potatoes
     public static final Supplier<Item> WASHED_POTATO = registerWithTab("washed_potato",
@@ -83,18 +95,13 @@ public class ModItems {
             () -> new Item(basicItem()));
     public static final Supplier<Item> RAW_ROSTBRAETEL = registerWithTab("raw_rostbraetel",
             () -> new Item(basicItem()));
+    public static final Supplier<Item> RAW_PROPHET_CAKE = registerWithTab("raw_prophet_cake",
+            () -> new Item(basicItem()));
+    public static final Supplier<Item> BUISCUIT_DOUGH = registerWithTab("biscuit_dough",
+            () -> new Item(basicItem()));
+    public static final Supplier<Item> BUISCUIT_DOUGH_SLICE = registerWithTab("biscuit_dough_slice",
+            () -> new Item(basicItem()));
 
-
-    // Crops
-        // Red Cabbage
-        public static final Supplier<Item> RED_CABBAGE = registerWithTab("red_cabbage",
-            () -> new Item(foodItem(FoodValues.CABBAGE)));
-        public static final Supplier<Item> RED_CABBAGE_LEAF = registerWithTab("red_cabbage_leaf",
-            () -> new Item(foodItem(FoodValues.CABBAGE_LEAF)));
-        public static final Supplier<Item> RED_CABBAGE_SEEDS = registerWithTab("red_cabbage_seeds", () -> new ItemNameBlockItem(ModBlocks.RED_CABBAGE_CROP.get(), basicItem()));
-        // Mustard
-        public static final Supplier<Item> MUSTARD_SEEDS = registerWithTab("mustard_seeds", () -> new ItemNameBlockItem(ModBlocks.MUSTARD_CROP.get(), basicItem()));
-        public static final Supplier<Item> MUSTARD = registerWithTab("mustard", () -> new Item(basicItem()));
 
     // Foods
     public static final Supplier<Item> KLOSS = registerWithTab("kloss",
@@ -125,13 +132,16 @@ public class ModItems {
 
 
     // Sweats
-    public static final Supplier<Item> RAW_PROPHET_CAKE = registerWithTab("raw_prophet_cake",
-            () -> new Item(basicItem()));
     public static final Supplier<Item> PROPHET_CAKE = registerWithTab("prophet_cake",
             () -> new Item(basicItem()));
     public static final Supplier<Item> PROPHET_CAKE_SLICE = registerWithTab("prophet_cake_slice",
             () -> new Item(foodItem(ModFoods.PROPHET_CAKE_SLICE)));
-    // TODO -> kalter Hund
+    public static final Supplier<Item> BISCUIT = registerWithTab("biscuit",
+            () -> new Item(foodItem(ModFoods.BISCUIT)));
+    public static final Supplier<Item> COLD_DOG = registerWithTab("cold_dog",
+            () -> new Item(basicItem()));
+    public static final Supplier<Item> COLD_DOG_SLICE = registerWithTab("cold_dog_slice",
+            () -> new Item(foodItem(ModFoods.COLD_DOG_SLICE)));
 
 
     // Disc

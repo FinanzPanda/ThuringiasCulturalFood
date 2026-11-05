@@ -44,5 +44,12 @@
   "item.thuringianculturalfood.stein": "The STEIN",
   "item.thuringianculturalfood.rasinbuns_without_rasins_disc.desc": "Late Night Podcast feat. Mr. Gräfe and D. Trump",
 
+  "item.thuringianculturalfood.biscuit": "Biscuit",
+  "item.thuringianculturalfood.biscuit_dough": "Biscuit Dough",
+  "item.thuringianculturalfood.biscuit_dough_slice": "Sliced Biscuit Dough",
+  "item.thuringianculturalfood.cold_dog": "Cold Dog",
+  "item.thuringianculturalfood.cold_dog_slice": "Cold Dog Slice",
+
+
   "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thuringia's Cultural Delight"
 }

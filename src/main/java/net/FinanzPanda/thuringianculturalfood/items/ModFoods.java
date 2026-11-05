@@ -94,4 +94,15 @@ public class ModFoods {
             .saturationModifier(0.5F)
             .effect(() -> nourishment(SEHR_LANG_KURZ), 1.0F)
             .build();
+
+    public static final FoodProperties BISCUIT = new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.2F)
+            .build();
+
+    public static final FoodProperties COLD_DOG_SLICE = new FoodProperties.Builder()
+            .nutrition(5)
+            .saturationModifier(0.4F)
+            .effect(() -> nourishment(KURZ), 1.0F)
+            .build();
 }

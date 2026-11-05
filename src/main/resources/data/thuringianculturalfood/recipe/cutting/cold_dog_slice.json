@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "thuringianculturalfood:cold_dog"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 5,
+        "id": "thuringianculturalfood:cold_dog_slice"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

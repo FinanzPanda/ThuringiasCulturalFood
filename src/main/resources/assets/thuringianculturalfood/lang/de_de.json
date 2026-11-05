@@ -44,5 +44,11 @@
   "item.thuringianculturalfood.stein": "Der STEIN",
   "item.thuringianculturalfood.rasinbuns_without_rasins_disc.desc": "Spät Nachts Podcast mit Herr Gräfe und D. Trump",
 
+  "item.thuringianculturalfood.biscuit": "Butterkeks",
+  "item.thuringianculturalfood.biscuit_dough": "Butterkeksteig",
+  "item.thuringianculturalfood.biscuit_dough_slice": "geschnittener Butterkeksteig",
+  "item.thuringianculturalfood.cold_dog": "kalter Hund",
+  "item.thuringianculturalfood.cold_dog_slice": "kalter Hund Stück",
+
   "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Thüringer Cultural Delight"
 }
