@@ -1,0 +1,55 @@
+{
+  "item.thuringianculturalfood.raw_kloss": "Необработанная клёцка",
+  "item.thuringianculturalfood.kloss": "Клёцка",
+  "item.thuringianculturalfood.washed_potato": "Вымытый картофель",
+  "item.thuringianculturalfood.salt": "Соль",
+  "item.thuringianculturalfood.butter": "Масло",
+  "item.thuringianculturalfood.grated_potato": "Тертый картофель",
+  "item.thuringianculturalfood.red_cabbage": "Краснокочанная капуста",
+  "item.thuringianculturalfood.red_cabbage_seeds": "Семена краснокочанной капусты",
+  "item.thuringianculturalfood.red_cabbage_leaf": "Лист красной капусты",
+
+  "item.thuringianculturalfood.roulade_kloss_red_cabbage": "Рулет по-тюрингенски с ябоком, краснокочанной капустой и клёцками",
+  "item.thuringianculturalfood.apple_red_cabbage": "Яблоко и краснокочанная капуста",
+  "item.thuringianculturalfood.mutzbraten": "Муцбратен",
+  "item.thuringianculturalfood.rostbratwurst": "Братвурст по-тюрингенски",
+  "item.thuringianculturalfood.th_rostbraetel": "Ростбиф по-тюрингенски",
+
+  "item.thuringianculturalfood.raw_roulade": "Сырой рулет",
+  "item.thuringianculturalfood.raw_sausage": "Сырая сосиска",
+  "item.thuringianculturalfood.raw_rostbraetel": "Сырой ростбиф по-тюрингенски",
+  "item.thuringianculturalfood.roulade": "Рулет по-тюрингенски",
+  "item.thuringianculturalfood.grilled_sausage": "Grilled Sausage",
+  "item.thuringianculturalfood.grilled_rostbraetel": "Жареная колбаса",
+  "item.thuringianculturalfood.potato_soup": "Картофельный суп",
+
+  "item.thuringianculturalfood.mustard_seeds": "Горчичные семена",
+  "item.thuringianculturalfood.mustard": "Горчица",
+
+  "item.thuringianculturalfood.prophet_cake_slice": "Кусок профетенкухена",
+  "item.thuringianculturalfood.raw_prophet_cake": "Необработанный профетенкухен",
+  "item.thuringianculturalfood.prophet_cake": "Профетенкухен",
+
+  "item.thuringianculturalfood.bun": "Булочка",
+  "item.thuringianculturalfood.bun_dough": "Булочное тесто",
+
+  "item.thuringianculturalfood.bach_disc.desc": "finest Bach GregorQuendel",
+  "item.thuringianculturalfood.bach_music_disc": "Токката и фуга ре минор",
+
+  "item.thuringianculturalfood.rasinbun": "Булочка с изюмом",
+  "item.thuringianculturalfood.rasinbuns": "Булочки с изюмом",
+  "item.thuringianculturalfood.rasinbun_dough": "Тесто для булочки с изюмом",
+  "item.thuringianculturalfood.rasinbuns_without_rasins": "Rasinbuns without Rasins",
+
+  "item.thuringianculturalfood.stein": "The STEIN",
+  "item.thuringianculturalfood.rasinbuns_without_rasins_disc.desc": "Late Night Podcast feat. Mr. Gräfe and D. Trump",
+
+  "item.thuringianculturalfood.biscuit": "Савоярди",
+  "item.thuringianculturalfood.biscuit_dough": "Тесто для савоярди",
+  "item.thuringianculturalfood.biscuit_dough_slice": "Нарезанное тесто для савоярди",
+  "item.thuringianculturalfood.cold_dog": "Холодная собака, не шучу, так и называется",
+  "item.thuringianculturalfood.cold_dog_slice": "Кусок холодной собаки",
+
+
+  "itemGroup.thuringianculturalfood.thuringian_cultural_food_tab": "Культурные наслаждения Тюрингии"
+}

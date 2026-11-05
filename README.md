@@ -44,4 +44,8 @@ vectorwing
  <a href="https://pixabay.com/de/music/solo-klassische-instrumente-bach-toccata-and-fugue-in-d-minor-bwv-565-250589/">
   music
    </a>
-  for the Bach Disc)
+  for the Bach Disc)    
+<a href="https://github.com/MGry/">
+My Brother
+</a> 
+for russian tranlation
